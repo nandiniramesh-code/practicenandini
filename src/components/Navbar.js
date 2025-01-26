@@ -24,10 +24,11 @@ export default function Navbar () {
     <div>
       <div className='hidden lg:flex space-x-6 text-2xl font-bold'>
 
-        <Link href="/home" className='text-slate-700 hover:text-emerald-400 ' >Home</Link>
+        <Link href="/" className='text-slate-700 hover:text-emerald-400 ' >Home</Link>
         <Link href="/contact" className='text-slate-700  hover:text-emerald-400' >contact</Link>
         <Link href="/servieces" className='text-slate-700  hover:text-emerald-400' >servieces</Link>
         <Link href="/galary" className='text-slate-700  hover:text-emerald-400'>galary</Link>
+        <Link href="/image" className='text-slate-700  hover:text-emerald-400'>image</Link>
 
 
       </div>
